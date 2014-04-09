@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+  android:id="@+id/llMain" 
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center_vertical|center_horizontal">
+    <ImageView
+        android:contentDescription="@string/content" 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/imageSplash" 
+    	android:src="@drawable/logo" 
+    	android:layout_width="wrap_content">
+    	</ImageView>
+    <LinearLayout 
+		android:layout_width="wrap_content" 
+		android:id="@+id/llBannerAD" 
+		android:layout_height="80dp"
+		android:orientation="horizontal"
+		android:paddingTop="10dp">
+		</LinearLayout>
+</LinearLayout>

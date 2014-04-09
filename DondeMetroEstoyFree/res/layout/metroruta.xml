@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <ImageView 
+		android:src="@drawable/linea1" 
+		android:id="@+id/rutaDetalleImage1" 
+		android:layout_width="40dp" 
+		android:layout_height="wrap_content"
+		android:contentDescription="@string/content">
+	</ImageView>
+	 <ImageView 
+		android:src="@drawable/lineaa" 
+		android:id="@+id/rutaDetalleImage2" 
+		android:layout_width="40dp" 
+		android:layout_height="wrap_content"
+		android:contentDescription="@string/content">
+	</ImageView>
+	<TextView  
+	    android:layout_width="match_parent" 
+	    android:layout_height="match_parent" 
+	    android:id="@+id/rutaDetalleLabel"
+	    android:gravity="center_vertical"
+	    android:textSize="20dp"
+    	android:textColor="#FFFFFF"
+    	android:textStyle="normal"
+    	android:paddingLeft="3dp"
+	    />
+	</LinearLayout>
+	 <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+	<TextView  
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/rutaDireccionLabel"
+	    android:gravity="center_vertical"
+	    android:textSize="15dp"
+    	android:textColor="#FFFFFF"
+    	android:textStyle="normal"
+    	
+    	android:paddingLeft="3dp"
+	    />
+	</LinearLayout>
+	     
+</LinearLayout>

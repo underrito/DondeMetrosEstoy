@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Subway:Mexico City Free</string>
+    <string name="mismoDestino">Start and Finish station are the same</string>
+    <string name="rutavacia">Please select at least one station</string>
+    <string name="lbldev">Developed By:</string>
+    <string name="lbldate">Date:</string>
+    <string name="lblversion">Version:</string>
+    <string name="lblmail">Comments:</string>
+    <string name="lblcountry">Country</string>    
+    <string name="txtdev">Underrito</string>
+    <string name="txtdate">12/Feb/2012</string>
+    <string name="txtversion">1.3</string> 
+    <string name="txtmail">underrito@gmail.com</string>
+    <string name="txtcountry">MX</string>
+    <string name="titleapp">Subway:Mexico City Free</string>
+    <string name="noLicense">This device have an invalid licence</string>
+    <string name="errorLicense">Error checking license. Please try again.</string>
+    <string name="validatingLicense">Checking licence at Android Market.</string>
+    <string name="successLicense">License validation OK!</string>
+    <string name="menuConfig">Config.</string>
+    <string name="preferenciaTitulo">Settings</string>    
+    <string name="preferenciaLinea12Summary">Activate/Deactivate line 12</string>
+    <string name="preferenciaLinea12Title">Line 12</string>
+    <string name="preferenciaBotonZoomSummary">Activate/Deactivate zoom in map</string>
+    <string name="preferenciaBotonZoomTitle">Zoom Buttons</string>
+    <string name="content">Content</string>
+ 	<string name="lblagradecimientos">Special Thanks</string>
+    <string name="txtagradecimientos">Dragon Naranja - Font</string>
+    <string name="lbllinkface">Please Visit our Mexico City Subway Collectors group on Facebook</string>
+    <string name="txtlinkface">Click Here!</string>
+     <string name="lblVota">Rate </string>    
+    <string name="lblGustaAhora">Yes</string>
+    <string name="lblGustaIni">If you enjoy using "</string>
+    <string name="lblGustaFin">", please take a moment to rate it at Android Market. Thanks!</string>
+    <string name="lblGustaDespues">Remind me later.</string>
+    <string name="lblGustaNunca">No thanks.</string>
+    <string name="lbldireccion">Take direction:</string>
+    <string name="menu">M</string>
+    <string name="menu2">enu</string>
+    
+</resources>

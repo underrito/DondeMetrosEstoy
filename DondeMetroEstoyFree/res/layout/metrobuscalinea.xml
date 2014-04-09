@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" 
+	android:id="@+id/scrollView1" 
+	android:layout_width="match_parent">
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:paddingLeft="2dp">
+    <ImageView 
+    	android:id="@+id/imageView1" 
+    	android:layout_width="wrap_content" 
+    	android:src="@drawable/lineatit" 
+    	android:layout_height="wrap_content"
+    	android:paddingTop="10dp"
+    	android:paddingBottom="10dp"
+    	android:contentDescription="@string/content"
+        android:paddingLeft="3dp">
+    	</ImageView> 
+  
+    <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:paddingRight="5dp">
+        <ImageView 
+    		android:layout_width="wrap_content" 
+    		android:src="@drawable/linea" 
+    		android:layout_height="wrap_content"
+    		android:paddingTop="2dp"
+    		android:paddingBottom="2dp"
+    		android:paddingRight="5dp"
+    		android:contentDescription="@string/content"/>
+    	<Spinner
+    		android:layout_width="match_parent" 
+    		android:layout_height="wrap_content" 
+    		android:id="@+id/SpinnerLinea"
+    		android:textSize="20dp"
+    		android:textColor="#FFFFFF"
+    		android:textStyle="bold"
+    		android:background="#000000"
+    		android:paddingRight="10dp">
+
+   		</Spinner>    
+    </LinearLayout>
+  	<LinearLayout 
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:gravity="center_horizontal|center_vertical"
+   		android:orientation="horizontal"
+   		android:paddingTop="15dp">
+   		<ImageView 
+   			android:id="@+id/btnOkLinea" 
+   			android:layout_width="wrap_content"
+   			android:src="@drawable/consultar" 
+   			android:layout_height="wrap_content"
+   			android:paddingRight="10dp"
+   			android:layout_weight="0.50"
+   			android:adjustViewBounds="true"
+   			android:layout_gravity="center_vertical|center_horizontal"
+   			android:background="#000000"
+   			android:contentDescription="@string/content">
+   			</ImageView>
+   			<ImageView 
+   			android:id="@+id/btnOkLineaMapa" 
+   			android:layout_width="wrap_content"
+   			android:src="@drawable/consultarmapa" 
+   			android:layout_height="wrap_content"
+   			android:paddingRight="10dp"
+   			android:layout_weight="0.50"
+   			android:adjustViewBounds="true"
+   			android:layout_gravity="center_vertical|center_horizontal"
+   			android:background="#000000"
+   			android:contentDescription="@string/content">
+   			</ImageView>
+   		
+   	</LinearLayout> 
+   	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:id="@+id/llBannerAD" 
+		android:layout_height="match_parent"
+		android:orientation="horizontal"
+		android:paddingTop="10dp">
+		</LinearLayout>
+   	
+</LinearLayout> 
+</ScrollView>
+

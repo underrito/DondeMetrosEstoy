@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Donde Metros Estoy? Gratis</string>
+    <string name="mismoDestino">La estacion origen y destino son el mismo punto</string>
+    <string name="rutavacia">Seleccione al menos una estacion</string>
+    <string name="lbldev">Desarrollado por:</string>
+    <string name="lbldate">Fecha:</string>
+    <string name="lblversion">Version:</string>
+    <string name="lblmail">Comentarios:</string>
+    <string name="lblcountry">Pais de Origen</string>    
+    <string name="txtdev">Underrito</string>
+    <string name="txtdate">12/Feb/2012</string>
+    <string name="txtversion">1.3</string> 
+    <string name="txtmail">underrito@gmail.com</string>
+    <string name="txtcountry">MX</string>
+    <string name="titleapp">Donde Metros estoy? Gratis</string>
+    <string name="noLicense">Este dispositivo no cuenta con una licencia valida.</string>
+    <string name="errorLicense">No se ha podido validar la licencia. Favor de intentar nuevamente.</string>
+    <string name="validatingLicense">Validando Licencia en Android Market. Asegurese de tener conexion de datos</string>
+    <string name="successLicense">Lincencia Valida!!</string>
+    <string name="menuConfig">Config.</string>
+    <string name="preferenciaTitulo">Preferencias</string>    
+    <string name="preferenciaLinea12Summary">Activar/Descativar la linea 12 dentro de la red del metro?</string>
+    <string name="preferenciaLinea12Title">Linea 12</string>
+    <string name="preferenciaBotonZoomSummary">Activar/Desactivar botones de Zoom en el mapa de la red del metro</string>
+    <string name="preferenciaBotonZoomTitle">Botones Zoom</string>
+    <string name="content">Content</string>
+    <string name="lblagradecimientos">Agradecimientos</string>
+    <string name="txtagradecimientos">Dragon Naranja - Tipografía del metro</string>
+    <string name="lbllinkface">Visita nuestro grupo\n de Coleccionistas del Metro</string>
+    <string name="txtlinkface">Click Aqui!</string>
+    <string name="lblVota">Vota por </string>    
+    <string name="lblGustaAhora">SI</string>
+    <string name="lblGustaIni">Si te gusta "</string>
+    <string name="lblGustaFin">" por favor vota en Android Market! Gracias por usar mis apk's y sobre todo por tu apoyo!</string>
+    <string name="lblGustaDespues">Mejor otro dia que tenga menos flojera!</string>
+    <string name="lblGustaNunca">Guakala! No gracias, esta muy chafa</string>
+    <string name="lbldireccion">Transborde direccion:</string>
+    <string name="menu">M</string>
+    <string name="menu2">enu</string>
+    
+ </resources>
