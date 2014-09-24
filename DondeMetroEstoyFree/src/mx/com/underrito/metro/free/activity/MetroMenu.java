@@ -13,9 +13,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-
-import com.google.ads.AdView;
-
+import com.google.android.gms.ads.AdView;
 public class MetroMenu extends Activity {
     /** Called when the activity is first created. */
 	ImageView			btnCalculaRuta;

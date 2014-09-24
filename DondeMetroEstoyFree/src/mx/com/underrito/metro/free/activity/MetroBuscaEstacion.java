@@ -2,7 +2,6 @@ package mx.com.underrito.metro.free.activity;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import com.google.ads.AdView;
 import mx.com.underrito.metro.free.R;
 import mx.com.underrito.metro.free.adapter.MetroEstacionSpinnerAdapter;
 import mx.com.underrito.metro.free.adapter.MetroLineaSpinnerAdapter;
@@ -28,7 +27,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.Toast;
-
+import com.google.android.gms.ads.AdView;
 public class MetroBuscaEstacion extends Activity {
     /** Called when the activity is first created. */
     Spinner 							spinnerDestino;

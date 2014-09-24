@@ -1,59 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"      
-      android:versionName="12" 
-      android:versionCode="12"
-      android:installLocation="auto"
-      package="mx.com.underrito.metro.free"
-      >
+<manifest 
+	xmlns:android="http://schemas.android.com/apk/res/android"      
+	android:versionName="13" 
+	android:versionCode="13"
+	android:installLocation="auto"
+	package="mx.com.underrito.metro.free">
 	<uses-sdk
-    		android:minSdkVersion="14"
-			android:targetSdkVersion="14"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
-  	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-  	<uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
-  	
+    	android:minSdkVersion="14"
+		android:targetSdkVersion="14"/>
+    <uses-permission 
+        android:name="android.permission.INTERNET"/>
+  	<uses-permission 
+  	    android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  	<uses-permission 
+  	    android:name="com.android.vending.CHECK_LICENSE"/>
     <application 
         android:icon="@drawable/metros" 
         android:label="@string/app_name"
-        android:name=".globalvalues.MetroGlobalValues">
-        <activity android:name=".activity.MetroMain"
-                  android:label="@string/app_name">
+        android:name=".globalvalues.MetroGlobalValues"
+		android:allowBackup="true">
+		<meta-data 
+		    android:name="com.google.android.gms.version"
+    		android:value="@integer/google_play_services_version"/>
+      	<activity 
+      	    android:name=".activity.MetroMain"
+            android:label="@string/app_name">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action 
+                    android:name="android.intent.action.MAIN" />
+                <category 
+                    android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 		<activity 	
-		    		android:name="com.google.ads.AdActivity"
-              		android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+			android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
 		<activity 	
-		    		android:name=".activity.MetroAbout"
-					android:label="@string/app_name"/>
+		    android:name=".activity.MetroAbout"
+			android:label="@string/app_name"/>
 		<activity
-		    		android:name=".activity.MetroRuta"
-		    		android:label="@string/app_name"/>
+		    android:name=".activity.MetroRuta"
+		    android:label="@string/app_name"/>
 		<activity 
-		    		android:name=".activity.MetroMapa"
-		    		android:label="@string/app_name"
-		    		android:screenOrientation="portrait"/>
+		    android:name=".activity.MetroMapa"
+		    android:label="@string/app_name"
+		    android:screenOrientation="portrait"/>
 		<activity 
-		    		android:name=".activity.MetroMenu"
-		    		android:label="@string/app_name"/>
+		    android:name=".activity.MetroMenu"
+		    android:label="@string/app_name"/>
 		<activity 
-		    		android:name=".activity.MetroMenuFragment"
-		    		android:label="@string/app_name"
-		    		android:screenOrientation="portrait"/>
+		    android:name=".activity.MetroMenuFragment"
+		    android:label="@string/app_name"
+		    android:screenOrientation="portrait"/>
 		<activity 
-		    		android:name=".activity.MetroBuscaEstacion"
-		    		android:label="@string/app_name"/>
+		    android:name=".activity.MetroBuscaEstacion"
+		    android:label="@string/app_name"/>
 		<activity 
-		    		android:name=".activity.MetroPreferencia"
-		    		android:label="@string/app_name"/>
+		    android:name=".activity.MetroPreferencia"
+		    android:label="@string/app_name"/>
 		<activity 
-		    		android:name=".activity.MetroBuscaLinea"
-		    		android:label="@string/app_name"/>
+		    android:name=".activity.MetroBuscaLinea"
+		    android:label="@string/app_name"/>
 		<activity 
-		    		android:name=".activity.MetroBuscaNombre"
-		    		android:label="@string/app_name"/>
-         </application>
+		    android:name=".activity.MetroBuscaNombre"
+		    android:label="@string/app_name"/>
+	</application>
 </manifest>

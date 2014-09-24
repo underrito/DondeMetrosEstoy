@@ -1,5 +1,6 @@
 package mx.com.underrito.metro.free.globalvalues;
-public class MetroLicenseCheckerCallback //implements LicenseCheckerCallback
+public class MetroLicenseCheckerCallback 
+//implements LicenseCheckerCallback
 {
 		/*private Activity			activity;
 		public MetroLicenseCheckerCallback(Activity activity)

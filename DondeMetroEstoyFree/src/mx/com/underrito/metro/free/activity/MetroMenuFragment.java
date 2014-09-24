@@ -18,8 +18,7 @@ import android.view.MenuItem;
 import android.view.Window;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import com.google.ads.AdView;
+import com.google.android.gms.ads.AdView;
 
 public class MetroMenuFragment extends FragmentActivity {
     /** Called when the activity is first created. */

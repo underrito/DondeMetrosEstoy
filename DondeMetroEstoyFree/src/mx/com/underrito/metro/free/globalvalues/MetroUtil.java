@@ -6,7 +6,6 @@ import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 import android.preference.PreferenceManager;
 import mx.com.underrito.metro.free.model.MetroJbEstacion;
-import mx.com.underrito.metro.free.model.MetroJbGrafo;
 import mx.com.underrito.metro.free.model.MetroJbLinea;
 import mx.com.underrito.metro.free.model.MetroJbSegmento;
 public class MetroUtil 

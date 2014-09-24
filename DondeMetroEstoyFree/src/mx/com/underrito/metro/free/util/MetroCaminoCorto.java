@@ -6,18 +6,18 @@ import mx.com.underrito.metro.free.model.*;
 public class MetroCaminoCorto 
 {
 	private MetroJbGrafo grafo;
-	private MetroJbEstacion origen;
+	//private MetroJbEstacion origen;
 	double distancia=0d;
 	public MetroCaminoCorto()
 	{
 		this.grafo=null;
-		this.origen=null;
+		//this.origen=null;
 		this.distancia=0;
 	}
 	public void calculaCaminoCorto(MetroJbGrafo grafo,MetroJbEstacion origen)
 	{
 		this.grafo=grafo;
-		this.origen=origen;
+		//this.origen=origen;
 		
 		//buscando estacion origen
 		this.distancia=0;

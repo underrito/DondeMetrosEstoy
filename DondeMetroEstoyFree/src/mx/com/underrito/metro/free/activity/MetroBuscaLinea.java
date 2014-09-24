@@ -1,6 +1,6 @@
 package mx.com.underrito.metro.free.activity;
 import java.util.ArrayList;
-import com.google.ads.AdView;
+import com.google.android.gms.ads.AdView;
 import mx.com.underrito.metro.free.R;
 import mx.com.underrito.metro.free.adapter.MetroLineaSpinnerAdapter;
 import mx.com.underrito.metro.free.constant.MetroConstant;

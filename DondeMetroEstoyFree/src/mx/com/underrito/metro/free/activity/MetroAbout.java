@@ -1,9 +1,8 @@
 package mx.com.underrito.metro.free.activity;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.regex.Pattern; 
-
-import com.google.ads.AdView;
+import java.util.regex.Pattern;
+import com.google.android.gms.ads.AdView;
 import mx.com.underrito.metro.free.R;
 import mx.com.underrito.metro.free.constant.MetroConstant;
 import mx.com.underrito.metro.free.globalvalues.MetroGlobalValues;

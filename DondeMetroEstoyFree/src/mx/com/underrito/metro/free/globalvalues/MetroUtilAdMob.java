@@ -2,9 +2,9 @@ package mx.com.underrito.metro.free.globalvalues;
 import java.util.ArrayList;
 import android.app.Activity;
 import android.widget.LinearLayout;
-import com.google.ads.AdRequest;
-import com.google.ads.AdSize;
-import com.google.ads.AdView;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
 import mx.com.underrito.metro.free.constant.MetroConstant;
 import mx.com.underrito.metro.free.model.MetroJbEstacion;
 import mx.com.underrito.metro.free.model.MetroJbLinea;
@@ -24,14 +24,19 @@ public class MetroUtilAdMob
 		AdView				adView;
 		LinearLayout		llBannerAD;
 		llBannerAD			= (LinearLayout)activity.findViewById(id);
-	  	adView				= new AdView(activity, AdSize.BANNER,MetroConstant.CAPANIA);
-	    AdRequest			request= new AdRequest();
-	    request.addTestDevice(AdRequest.TEST_EMULATOR);
-	    request.addTestDevice(MetroConstant.DEVICE_DEV);
-	    adView.loadAd(request);
+	  	//adView				= new AdView(activity);// (activity, AdSize.BANNER,MetroConstant.CAPANIA);
+	    //AdRequest			request= new AdRequest();
+	    //request.addTestDevice(AdRequest.DEVICE_ID_EMULATOR);// TEST_EMULATOR);
+	    //request.addTestDevice(MetroConstant.DEVICE_DEV);
+	    //adView.loadAd(request);
+	    //llBannerAD.addView(adView);
+	    adView = new AdView(activity);
+	    adView.setAdUnitId(MetroConstant.CAPANIA);
+	    adView.setAdSize(AdSize.BANNER);
 	    llBannerAD.addView(adView);
+        AdRequest			request= new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build();
+        adView.loadAd(request);
 	    return adView;
-	        
 	}
 	
 	
